@@ -6,7 +6,9 @@ def maxInWindows(arr,k):
     print(sum)
 
 if __name__ == '__main__':
+    # temp = [4, 3, 5, 4, 3, 3, 6, 7]
     temp = input()
+    # k=3
     k = int(input())
     temp = temp.split(' ')
     # print(temp)
