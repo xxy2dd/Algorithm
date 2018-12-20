@@ -2,7 +2,7 @@
 # 请实现一个时间复杂度为O(length(arr))的算法
 # Input: 输入的第一行为数组，每一个数用空格隔开，第二行为num。
 # Output: 输出一个值。
-
+# -*- coding:utf-8 -*-
 def getNum(arr,k):
     if arr == None or len(arr) == 0:
         return 0

@@ -2,7 +2,7 @@
 # 求当有N层塔的时候移动步数。
 # Input：输入的第一行为N。
 # Output: 移动步数。
-
+# -*- coding:utf-8 -*-
 # import datetime
 def hanoi(n):
     if n==1:

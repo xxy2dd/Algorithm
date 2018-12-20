@@ -1,7 +1,7 @@
 # 给定一个矩形区域，每一个位置上都是1或0，求该矩阵中每一个位置上都是1的最大子矩形区域中的1的个数。
 # Input：输入的每一行是用空格隔开的0或1。
 # Output: 输出一个数值。
-#
+# -*- coding:utf-8 -*-
 def maximalRectangle(matrix):
     if len(matrix) == 0:
         return 0
