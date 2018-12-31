@@ -14,17 +14,7 @@ true
 true
 false
 '''
-'''
-第一次遍历：获取链表长度（这里在输入的时候就能知道）
-第二次遍历：遍历到中间，并逆置前段列表
-第三次遍历：从中间到两端进行比较
-'''
 class Node:
-    '''
-    定义节点类
-    data:数据
-    _next:下一个数据
-    '''
     def __init__(self,data):
         self.data = data
         self._next = None
