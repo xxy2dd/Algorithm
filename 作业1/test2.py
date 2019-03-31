@@ -42,7 +42,7 @@ if __name__ == "__main__":
             temp = input()
             temp = [int(a) for a in temp.split(' ')]
             matrix.append(temp)
-            # print(matrix)
+            print(matrix)
         except:
             break
 
