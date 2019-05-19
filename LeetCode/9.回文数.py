@@ -41,7 +41,7 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         # 方法一：类似于整数反转，将整数转化为字符串
-        # return str(x)==str(x)[::-1]
+        return str(x)==str(x)[::-1]
         # 方法二：重复比较整数首尾两个值是否相等，不同则False
         # 方法三：反转一半数字
         # if x<0 or (x%10 == 0 and x!=0):
